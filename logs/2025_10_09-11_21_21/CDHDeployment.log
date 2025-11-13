@@ -1,0 +1,379 @@
+Hit Ctrl-C to quit
+EVENT: (3334) (2:1760034082,261753) WARNING_HI: (prmDb) PrmFileReadError : Parameter file read failed in stage OPEN (0) with record 0 and error 1
+EVENT: (1280) (2:1760034082,265200) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x500 registered to port 0 slot 0
+EVENT: (1280) (2:1760034082,265213) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x501 registered to port 0 slot 1
+EVENT: (1280) (2:1760034082,265215) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x502 registered to port 0 slot 2
+EVENT: (1280) (2:1760034082,265217) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x503 registered to port 0 slot 3
+EVENT: (1280) (2:1760034082,265219) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x600 registered to port 1 slot 4
+EVENT: (1280) (2:1760034082,265221) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x601 registered to port 1 slot 5
+EVENT: (1280) (2:1760034082,265222) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x602 registered to port 1 slot 6
+EVENT: (1280) (2:1760034082,265240) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x603 registered to port 1 slot 7
+EVENT: (1280) (2:1760034082,265241) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x604 registered to port 1 slot 8
+EVENT: (1280) (2:1760034082,265243) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x605 registered to port 1 slot 9
+EVENT: (1280) (2:1760034082,265244) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x606 registered to port 1 slot 10
+EVENT: (1280) (2:1760034082,265246) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x607 registered to port 1 slot 11
+EVENT: (1280) (2:1760034082,265248) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0xb00 registered to port 2 slot 12
+EVENT: (1280) (2:1760034082,265249) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0xb02 registered to port 2 slot 13
+EVENT: (1280) (2:1760034082,265251) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0xb03 registered to port 2 slot 14
+EVENT: (1280) (2:1760034082,265252) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x800 registered to port 3 slot 15
+EVENT: (1280) (2:1760034082,265254) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x801 registered to port 3 slot 16
+EVENT: (1280) (2:1760034082,265256) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x802 registered to port 3 slot 17
+EVENT: (1280) (2:1760034082,265257) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x900 registered to port 4 slot 18
+EVENT: (1280) (2:1760034082,265259) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x901 registered to port 4 slot 19
+EVENT: (1280) (2:1760034082,265260) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x902 registered to port 4 slot 20
+EVENT: (1280) (2:1760034082,265262) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x903 registered to port 4 slot 21
+EVENT: (1280) (2:1760034082,265264) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x904 registered to port 4 slot 22
+EVENT: (1280) (2:1760034082,265265) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x905 registered to port 4 slot 23
+EVENT: (1280) (2:1760034082,265267) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x906 registered to port 4 slot 24
+EVENT: (1280) (2:1760034082,265268) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x2000 registered to port 5 slot 25
+EVENT: (1280) (2:1760034082,265270) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x2001 registered to port 5 slot 26
+EVENT: (1280) (2:1760034082,265272) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x2002 registered to port 5 slot 27
+EVENT: (1280) (2:1760034082,265273) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0xd00 registered to port 6 slot 28
+EVENT: (1280) (2:1760034082,265275) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4a00 registered to port 7 slot 29
+EVENT: (1280) (2:1760034082,265277) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4e00 registered to port 8 slot 30
+EVENT: (1280) (2:1760034082,265278) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4e01 registered to port 8 slot 31
+[WARNING] cmdDisp high task priority of 101 clamped to 99
+
+[NOTE] Task Permissions:
+[NOTE]
+[NOTE] You have insufficient permissions to create a task with priority and/or cpu affinity.
+[NOTE] A task without priority and affinity will be created.
+[NOTE]
+[NOTE] There are three possible resolutions:
+[NOTE] 1. Use tasks without priority and affinity using parameterless start()
+[NOTE] 2. Run this executable as a user with task priority permission
+[NOTE] 3. Grant capability with "setcap 'cap_sys_nice=eip'" or equivalent
+
+[WARNING] cmdSeq high task priority of 100 clamped to 99
+[WARNING] comQueue high task priority of 100 clamped to 99
+[WARNING] fileDownlink high task priority of 100 clamped to 99
+[WARNING] fileManager high task priority of 100 clamped to 99
+[WARNING] fileUplink high task priority of 100 clamped to 99
+[WARNING] rateGroup1 high task priority of 120 clamped to 99
+[WARNING] rateGroup2 high task priority of 119 clamped to 99
+EVENT: (512) (2:1760034082,267329) DIAGNOSTIC: (rateGroup1) RateGroupStarted : Rate group started.
+[WARNING] rateGroup3 high task priority of 118 clamped to 99
+EVENT: (768) (2:1760034082,267493) DIAGNOSTIC: (rateGroup2) RateGroupStarted : Rate group started.
+EVENT: (1024) (2:1760034082,267764) DIAGNOSTIC: (rateGroup3) RateGroupStarted : Rate group started.
+[WARNING] ReceiveTask high task priority of 100 clamped to 99
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034083,269965) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3585) (2:1760034083,294676) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+EVENT: (3584) (2:1760034084,269875) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3585) (2:1760034084,292014) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+EVENT: (3584) (2:1760034085,269769) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3585) (2:1760034085,289987) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+EVENT: (3584) (2:1760034086,269786) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3585) (2:1760034086,292250) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+EVENT: (3584) (2:1760034087,269872) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3585) (2:1760034087,291936) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+EVENT: (3584) (2:1760034088,269822) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3585) (2:1760034088,291553) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+EVENT: (3584) (2:1760034089,269836) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034089,291292) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034090,269833) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034090,291125) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034091,269874) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034091,293163) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034092,269974) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034092,289500) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034096,204912) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034096,226519) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034097,203662) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034097,223521) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034098,203468) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034098,227372) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034099,203322) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034099,226477) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034100,203293) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034100,223880) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034101,203297) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034101,225494) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034102,203472) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034102,225579) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034103,203838) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034103,231108) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034104,204142) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034104,239011) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034105,209558) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034105,237482) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034106,203871) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034106,228854) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034107,203289) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034107,222574) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034108,203498) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034108,233472) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034109,203639) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034109,223133) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034110,206367) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034110,231940) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034111,203918) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034111,224589) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034112,203308) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034112,225107) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034113,204409) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034113,225932) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034114,207580) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034114,228262) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034115,206837) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034115,231830) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034116,207296) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034116,227216) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034117,204052) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034117,226290) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034118,206409) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034118,233617) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034119,207285) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034119,227123) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034120,207726) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034120,228093) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034121,204055) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034121,223734) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034122,203900) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034122,224612) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034123,203419) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034123,223417) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034124,204117) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034124,224119) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034125,204683) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034125,226851) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034126,207646) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034126,226167) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034127,207805) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034127,235708) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034131,140106) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034131,160451) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034132,135678) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034132,156158) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034133,135911) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034133,158264) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034134,135999) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034134,158623) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034135,136183) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034135,158137) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034136,135874) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034136,157310) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034137,135919) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034137,157594) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034138,136724) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034138,157975) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+EVENT: (1792) (2:1760034138,158050) WARNING_HI: (comQueue) QueueOverflow : The COM_QUEUE (0) queue at index 0 overflowed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034139,135843) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034139,158496) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034140,135753) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034140,156843) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034141,136053) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034141,155932) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034142,135956) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034142,156548) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034143,135860) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034143,158422) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034144,135787) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034144,157544) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034145,136007) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034145,161258) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034146,136133) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034146,157388) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034147,135871) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034147,157763) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034148,136032) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034148,156835) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034149,136086) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034149,158292) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034150,135781) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034150,159281) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034151,135971) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034151,157699) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034152,135944) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034152,157997) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034153,136216) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034153,160860) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034154,135846) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034154,165205) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034155,136375) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034155,161484) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034156,136210) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034156,165321) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034157,135850) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034157,157036) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034158,135893) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034158,160247) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034159,135864) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034159,159869) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034160,135877) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034160,161297) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034161,135868) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034161,160863) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034162,135818) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034162,161477) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034163,135865) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034163,156854) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034167,69548) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034167,95026) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034168,69547) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034168,93593) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034169,69476) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034169,91531) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034170,69470) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034170,92023) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034171,69754) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034171,93824) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034172,70261) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034172,95759) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034173,69436) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034173,89982) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034174,69422) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034174,89115) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034175,69472) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034175,91431) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034176,69593) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034176,89996) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034177,69571) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034177,90707) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034178,69433) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034178,90769) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034179,69676) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034179,90878) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034180,69506) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034180,91132) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034181,69520) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034181,89893) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034182,69478) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034182,91112) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034183,69430) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034183,90294) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034184,69685) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034184,93849) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034185,69467) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034185,93119) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034186,69765) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034186,93689) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034187,69477) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034187,101610) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034188,69552) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034188,91193) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034189,69415) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034189,89511) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034190,69431) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034190,90194) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034191,69855) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034191,89862) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034192,69559) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034192,90594) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034193,69438) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034193,91866) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034194,69472) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034194,90626) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034195,69455) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034195,91135) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034196,69569) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034196,91370) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+EVENT: (3584) (2:1760034197,69461) ACTIVITY_LO: (radioBridge) RADIO_TX_STARTED : Radio transmission started
+EVENT: (3585) (2:1760034197,90985) WARNING_HI: (radioBridge) RADIO_TX_FAILED : Radio transmission failed: Transmission failed
+[WARNING] Failed to listen on port 50000 with status -9
+Exiting...

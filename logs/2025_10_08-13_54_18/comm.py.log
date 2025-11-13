@@ -1,0 +1,6 @@
+[2025-10-08 13:54:18,615] [INFO] root: Logging system initialized!
+[2025-10-08 13:54:18,615] [INFO] comm: Starting uplinker/downlinker connecting to FSW using ip with fprime
+[2025-10-08 13:54:18,616] [INFO] udp_handler: Client connected to 192.168.4.2:50000
+[2025-10-08 13:54:18,617] [INFO] transport: Incoming binding to: ipc:///tmp/fprime-server-in
+[2025-10-08 13:54:19,117] [INFO] transport: Outgoing binding to: ipc:///tmp/fprime-server-out
+[2025-10-08 13:54:28,128] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionResetError: [Errno 104] Connection reset by peer

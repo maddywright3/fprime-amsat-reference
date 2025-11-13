@@ -1,19 +1,13 @@
 #####
 # 'CDHDeployment' Deployment:
-#
-# This registers the 'CDHDeployment' deployment to the build system. 
-# Custom components that have not been added at the project-level should be added to 
-# the list below.
-#
 #####
 
 ###
 # Topology and Components
 ###
 add_fprime_subdirectory("${CMAKE_CURRENT_LIST_DIR}/Top/")
-
-# Add custom components to this specific deployment here
-# add_fprime_subdirectory("${CMAKE_CURRENT_LIST_DIR}/MyComponent/")
+add_fprime_subdirectory("${CMAKE_CURRENT_LIST_DIR}/RadioBridge/")  # Remove for now
+add_fprime_subdirectory("${CMAKE_CURRENT_LIST_DIR}/AMSATFramer/")
 
 register_fprime_deployment(
     SOURCES

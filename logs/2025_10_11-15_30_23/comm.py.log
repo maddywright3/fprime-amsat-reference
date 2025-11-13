@@ -1,0 +1,34 @@
+[2025-10-11 15:30:23,943] [INFO] root: Logging system initialized!
+[2025-10-11 15:30:23,943] [INFO] comm: Starting uplinker/downlinker connecting to FSW using ip with fprime
+[2025-10-11 15:30:23,944] [INFO] udp_handler: Client connected to 192.168.1.11:50000
+[2025-10-11 15:30:23,945] [INFO] transport: Incoming binding to: ipc:///tmp/fprime-server-in
+[2025-10-11 15:30:23,966] [WARNING] tcp_handler: Failed to open socket at 192.168.1.11:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-11 15:30:24,446] [INFO] transport: Outgoing binding to: ipc:///tmp/fprime-server-out
+[2025-10-11 15:30:24,997] [WARNING] tcp_handler: Failed to open socket at 192.168.1.11:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-11 15:30:28,100] [WARNING] tcp_handler: Failed to open socket at 192.168.1.11:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-11 15:30:29,140] [WARNING] tcp_handler: Failed to open socket at 192.168.1.11:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-11 15:30:30,148] [WARNING] tcp_handler: Failed to open socket at 192.168.1.11:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-11 15:30:31,166] [WARNING] tcp_handler: Failed to open socket at 192.168.1.11:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-11 15:30:32,174] [WARNING] tcp_handler: Failed to open socket at 192.168.1.11:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-11 15:30:33,198] [WARNING] tcp_handler: Failed to open socket at 192.168.1.11:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-11 15:30:36,258] [WARNING] tcp_handler: Failed to open socket at 192.168.1.11:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-11 15:30:37,267] [WARNING] tcp_handler: Failed to open socket at 192.168.1.11:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-11 15:30:38,278] [WARNING] tcp_handler: Failed to open socket at 192.168.1.11:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-11 15:30:39,292] [WARNING] tcp_handler: Failed to open socket at 192.168.1.11:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-11 15:30:40,331] [WARNING] tcp_handler: Failed to open socket at 192.168.1.11:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-11 15:30:41,357] [WARNING] tcp_handler: Failed to open socket at 192.168.1.11:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-11 15:30:42,365] [WARNING] tcp_handler: Failed to open socket at 192.168.1.11:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-11 15:30:43,394] [WARNING] tcp_handler: Failed to open socket at 192.168.1.11:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-11 15:30:44,407] [WARNING] tcp_handler: Failed to open socket at 192.168.1.11:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-11 15:30:45,417] [WARNING] tcp_handler: Failed to open socket at 192.168.1.11:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-11 15:30:46,433] [WARNING] tcp_handler: Failed to open socket at 192.168.1.11:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-11 15:30:47,444] [WARNING] tcp_handler: Failed to open socket at 192.168.1.11:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-11 15:30:48,451] [WARNING] tcp_handler: Failed to open socket at 192.168.1.11:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-11 15:30:49,470] [WARNING] tcp_handler: Failed to open socket at 192.168.1.11:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-11 15:30:50,490] [WARNING] tcp_handler: Failed to open socket at 192.168.1.11:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-11 15:30:51,498] [WARNING] tcp_handler: Failed to open socket at 192.168.1.11:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-11 15:30:52,565] [WARNING] tcp_handler: Failed to open socket at 192.168.1.11:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-11 15:30:53,573] [INFO] tcp_handler: Client connected to 192.168.1.11:50000
+[2025-10-11 15:32:22,907] [WARNING] tcp_handler: Read failure attempting reconnection. OSError: [Errno 9] Bad file descriptor
+[2025-10-11 15:32:22,915] [WARNING] tcp_handler: Failed to open socket at 192.168.1.11:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-11 15:32:23,961] [WARNING] tcp_handler: Failed to open socket at 192.168.1.11:50000, retrying: ConnectionResetError: [Errno 104] Connection reset by peer

@@ -1,0 +1,321 @@
+[2025-10-09 11:33:08,117] [INFO] root: Logging system initialized!
+[2025-10-09 11:33:08,117] [INFO] comm: Starting uplinker/downlinker connecting to FSW using ip with fprime
+[2025-10-09 11:33:08,118] [INFO] udp_handler: Client connected to 192.168.4.2:50000
+[2025-10-09 11:33:08,120] [INFO] transport: Incoming binding to: ipc:///tmp/fprime-server-in
+[2025-10-09 11:33:08,121] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:33:08,629] [INFO] transport: Outgoing binding to: ipc:///tmp/fprime-server-out
+[2025-10-09 11:33:09,123] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:33:10,124] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:33:11,126] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:33:12,128] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:33:13,129] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:33:14,131] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:33:15,132] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:33:16,133] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:33:19,609] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:33:20,610] [INFO] tcp_handler: Client connected to 192.168.4.2:50000
+[2025-10-09 11:33:38,905] [WARNING] tcp_handler: Read failure attempting reconnection. OSError: [Errno 9] Bad file descriptor
+[2025-10-09 11:33:38,907] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:33:39,908] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:33:40,910] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:33:41,911] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:33:42,912] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:33:43,914] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:33:44,915] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:33:45,916] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:33:46,917] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:33:47,919] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:33:48,920] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:33:49,921] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:33:50,922] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:33:54,790] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:33:55,791] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:33:56,793] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:33:57,794] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:33:58,795] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:33:59,797] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:34:00,798] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:34:01,799] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:34:02,801] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:34:03,802] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:34:04,803] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:34:05,804] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:34:06,806] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:34:07,807] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:34:08,808] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:34:09,809] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:34:10,811] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:34:11,812] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:34:12,813] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:34:13,815] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:34:14,816] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:34:15,817] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:34:16,818] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:34:17,820] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:34:18,821] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:34:19,822] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:34:20,824] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:34:21,825] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:34:22,826] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:34:23,828] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:35:45,649] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:35:49,713] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:35:53,777] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:35:57,841] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:36:01,909] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:36:05,969] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:36:10,033] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:36:17,030] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:36:21,094] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:36:25,158] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:36:29,222] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:36:33,286] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:36:41,416] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:36:42,418] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:36:43,419] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:36:44,424] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:36:45,425] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:36:46,427] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:36:47,428] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:36:50,756] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:36:51,757] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:36:52,759] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:36:53,760] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:36:54,761] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:36:55,762] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:36:56,764] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:36:57,765] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:36:58,767] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:36:59,768] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:00,769] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:01,771] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:02,772] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:03,774] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:04,775] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:05,776] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:06,778] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:07,780] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:08,781] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:09,782] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:10,784] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:11,786] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:12,787] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:13,788] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:14,790] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:15,792] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:16,793] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:17,794] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:18,796] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:19,797] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:20,799] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:21,800] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:22,802] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:25,894] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:26,895] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:27,897] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:28,899] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:29,900] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:30,901] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:31,903] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:32,904] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:33,906] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:34,907] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:35,909] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:36,910] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:37,912] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:38,916] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:39,917] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:40,919] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:41,920] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:42,922] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:43,923] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:44,924] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:45,926] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:46,927] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:47,929] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:48,930] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:49,932] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:50,934] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:51,935] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:52,936] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:53,937] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:54,939] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:55,941] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:56,942] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:37:57,944] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:00,810] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:01,812] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:02,813] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:03,815] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:04,817] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:05,818] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:06,820] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:07,821] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:08,823] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:09,824] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:10,825] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:11,828] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:12,829] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:13,830] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:14,832] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:15,833] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:16,835] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:17,836] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:18,838] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:19,839] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:20,841] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:21,842] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:22,844] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:23,845] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:24,847] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:25,848] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:26,849] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:27,851] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:28,852] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:29,853] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:30,854] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:31,856] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:32,857] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:35,292] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:36,293] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:37,294] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:38,296] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:39,297] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:40,298] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:41,299] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:42,301] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:43,302] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:44,304] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:45,305] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:46,307] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:47,309] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:48,310] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:49,311] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:50,313] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:51,314] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:52,316] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:53,318] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:54,319] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:55,321] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:56,323] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:57,325] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:58,326] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:38:59,327] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:00,329] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:01,331] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:02,332] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:03,334] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:04,336] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:05,337] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:06,339] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:07,340] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:10,477] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:11,478] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:12,480] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:13,481] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:14,483] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:15,485] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:16,486] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:17,488] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:18,490] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:19,491] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:20,493] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:21,494] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:22,496] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:23,498] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:24,499] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:25,501] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:26,502] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:27,504] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:28,505] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:29,506] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:30,508] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:31,509] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:32,511] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:33,513] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:34,514] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:35,516] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:36,517] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:37,519] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:38,521] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:39:39,522] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:40:25,177] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:40:29,241] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:40:33,305] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:40:37,369] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:40:41,433] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:40:45,497] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:40:49,561] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:40:53,625] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:40:57,689] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:41:01,753] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:41:05,817] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:41:14,199] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:41:18,263] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:41:22,328] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:41:26,391] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:41:30,456] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:41:34,519] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:41:38,583] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:41:42,648] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:41:49,646] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:41:53,710] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:41:57,774] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:42:01,838] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:42:05,902] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:42:09,966] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:42:14,030] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:42:18,094] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:42:25,091] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:42:29,156] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:42:33,220] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:42:37,283] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:42:41,347] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:42:45,411] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:42:49,475] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:42:53,539] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:43:00,538] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:43:04,602] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:43:08,666] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:43:12,730] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:43:16,794] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:43:20,859] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:43:24,922] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:43:28,986] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:43:35,984] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:43:40,048] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:43:44,111] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:43:48,176] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:43:52,239] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:43:56,303] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:44:00,367] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:44:04,431] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:44:11,426] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:44:15,490] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:44:19,554] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:44:23,619] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:44:27,682] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:44:31,747] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:44:35,811] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-09 11:44:44,858] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:44:45,859] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:44:46,863] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:44:47,865] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:44:48,866] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:44:49,868] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:44:50,869] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:44:51,871] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:44:52,872] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:44:53,873] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:44:54,875] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:44:55,876] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:44:56,877] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:44:57,879] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:44:58,880] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:44:59,882] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:45:00,883] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:45:01,884] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:45:02,886] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:45:03,887] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:45:04,889] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-09 11:45:05,891] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused

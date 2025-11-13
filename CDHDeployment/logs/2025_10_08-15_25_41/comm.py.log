@@ -1,0 +1,6 @@
+[2025-10-08 15:25:42,013] [INFO] root: Logging system initialized!
+[2025-10-08 15:25:42,015] [INFO] comm: Starting uplinker/downlinker connecting to FSW using ip with fprime
+[2025-10-08 15:25:42,017] [INFO] transport: Incoming binding to: ipc:///tmp/fprime-server-in
+[2025-10-08 15:25:42,055] [INFO] udp_handler: Server connected to 192.168.4.1:50001
+[2025-10-08 15:25:42,516] [INFO] transport: Outgoing binding to: ipc:///tmp/fprime-server-out
+[2025-10-08 15:26:14,682] [WARNING] tcp_handler: Failed to open socket at 192.168.4.1:50001, retrying: OSError: [Errno 22] Invalid argument

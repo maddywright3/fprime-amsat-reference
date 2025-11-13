@@ -1,0 +1,17 @@
+[2025-10-08 14:22:00,604] [INFO] root: Logging system initialized!
+[2025-10-08 14:22:00,604] [INFO] comm: Starting uplinker/downlinker connecting to FSW using ip with fprime
+[2025-10-08 14:22:00,605] [INFO] udp_handler: Client connected to 192.168.4.2:50000
+[2025-10-08 14:22:00,606] [INFO] transport: Incoming binding to: ipc:///tmp/fprime-server-in
+[2025-10-08 14:22:00,607] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-08 14:22:01,110] [INFO] transport: Outgoing binding to: ipc:///tmp/fprime-server-out
+[2025-10-08 14:22:01,609] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-08 14:22:02,610] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-08 14:22:03,612] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-08 14:22:04,614] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-08 14:22:05,615] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-08 14:22:06,617] [INFO] tcp_handler: Client connected to 192.168.4.2:50000
+[2025-10-08 14:22:35,127] [WARNING] tcp_handler: Read failure attempting reconnection. OSError: [Errno 9] Bad file descriptor
+[2025-10-08 14:22:35,130] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-08 14:22:36,133] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-08 14:22:37,135] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-08 14:22:38,136] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused

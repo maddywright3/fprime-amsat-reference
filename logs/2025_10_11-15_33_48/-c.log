@@ -1,0 +1,5 @@
+[2025-10-11 15:33:48,916] [INFO] root: Logging system initialized!
+[2025-10-11 15:33:48,927] [INFO] transport: Outgoing connecting to: ipc:///tmp/fprime-server-in
+[2025-10-11 15:33:48,927] [INFO] transport: Incoming connecting to: ipc:///tmp/fprime-server-out
+[2025-10-11 15:34:02,811] [WARNING] distributor: No decoder registered for: FW_PACKET_HAND
+[2025-10-11 15:35:18,922] [WARNING] distributor: No decoder registered for: FW_PACKET_HAND

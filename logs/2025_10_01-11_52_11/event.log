@@ -1,0 +1,42 @@
+2025-10-01T11:57:46.471423,(2(0)-1759345066:471423),CDHDeployment.prmDb.PrmFileReadError,3334,EventSeverity.WARNING_HI,Parameter file read failed in stage OPEN with record 0 and error 1
+2025-10-01T11:57:47.488048,(2(0)-1759345067:488048),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:57:48.488052,(2(0)-1759345068:488052),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:57:49.487922,(2(0)-1759345069:487922),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:57:50.487948,(2(0)-1759345070:487948),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:57:51.488212,(2(0)-1759345071:488212),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:57:52.487851,(2(0)-1759345072:487851),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:57:53.488005,(2(0)-1759345073:488005),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:57:54.487864,(2(0)-1759345074:487864),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:57:55.488027,(2(0)-1759345075:488027),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:57:56.488060,(2(0)-1759345076:488060),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:57:57.487887,(2(0)-1759345077:487887),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:57:58.487883,(2(0)-1759345078:487883),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:57:59.488336,(2(0)-1759345079:488336),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:58:00.487904,(2(0)-1759345080:487904),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:58:01.488154,(2(0)-1759345081:488154),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:58:02.487921,(2(0)-1759345082:487921),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:58:03.488132,(2(0)-1759345083:488132),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:58:04.488049,(2(0)-1759345084:488049),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:58:05.487882,(2(0)-1759345085:487882),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:58:06.487913,(2(0)-1759345086:487913),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:58:07.488009,(2(0)-1759345087:488009),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:58:08.488119,(2(0)-1759345088:488119),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:58:09.487878,(2(0)-1759345089:487878),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:58:10.487844,(2(0)-1759345090:487844),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:58:11.488143,(2(0)-1759345091:488143),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:58:12.487866,(2(0)-1759345092:487866),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:58:13.487894,(2(0)-1759345093:487894),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:58:14.487883,(2(0)-1759345094:487883),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:58:15.488020,(2(0)-1759345095:488020),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:58:16.487848,(2(0)-1759345096:487848),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:58:17.488064,(2(0)-1759345097:488064),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:58:18.488053,(2(0)-1759345098:488053),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:58:19.488038,(2(0)-1759345099:488038),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:58:20.487892,(2(0)-1759345100:487892),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:58:21.823804,(2(0)-1759345101:823804),CDHDeployment.radioBridge.RADIO_TX_FAILED,3585,EventSeverity.WARNING_HI,Radio transmission failed: Transmission failed
+2025-10-01T11:58:21.824334,(2(0)-1759345101:824334),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:58:22.026183,(2(0)-1759345102:26183),CDHDeployment.radioBridge.RADIO_TX_FAILED,3585,EventSeverity.WARNING_HI,Radio transmission failed: Transmission failed
+2025-10-01T11:58:22.487954,(2(0)-1759345102:487954),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:58:23.051064,(2(0)-1759345103:51064),CDHDeployment.radioBridge.RADIO_TX_FAILED,3585,EventSeverity.WARNING_HI,Radio transmission failed: Transmission failed
+2025-10-01T11:58:23.488013,(2(0)-1759345103:488013),CDHDeployment.radioBridge.RADIO_TX_STARTED,3584,EventSeverity.ACTIVITY_LO,Radio transmission started
+2025-10-01T11:58:24.285386,(2(0)-1759345104:285386),CDHDeployment.radioBridge.RADIO_TX_FAILED,3585,EventSeverity.WARNING_HI,Radio transmission failed: Transmission failed

@@ -1,0 +1,11 @@
+[2025-10-11 15:33:45,526] [INFO] root: Logging system initialized!
+[2025-10-11 15:33:45,526] [INFO] comm: Starting uplinker/downlinker connecting to FSW using ip with fprime
+[2025-10-11 15:33:45,527] [INFO] udp_handler: Client connected to 192.168.4.2:50000
+[2025-10-11 15:33:45,529] [INFO] transport: Incoming binding to: ipc:///tmp/fprime-server-in
+[2025-10-11 15:33:45,530] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-11 15:33:46,032] [INFO] transport: Outgoing binding to: ipc:///tmp/fprime-server-out
+[2025-10-11 15:33:46,531] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-11 15:33:47,533] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-11 15:33:48,534] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-11 15:33:49,536] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: ConnectionRefusedError: [Errno 111] Connection refused
+[2025-10-11 15:33:50,537] [INFO] tcp_handler: Client connected to 192.168.4.2:50000

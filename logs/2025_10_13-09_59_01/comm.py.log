@@ -1,0 +1,9 @@
+[2025-10-13 09:59:01,578] [INFO] root: Logging system initialized!
+[2025-10-13 09:59:01,582] [INFO] comm: Starting uplinker/downlinker connecting to FSW using ip with fprime
+[2025-10-13 09:59:01,583] [INFO] udp_handler: Client connected to 192.168.4.2:50000
+[2025-10-13 09:59:01,585] [INFO] transport: Incoming binding to: ipc:///tmp/fprime-server-in
+[2025-10-13 09:59:02,084] [INFO] transport: Outgoing binding to: ipc:///tmp/fprime-server-out
+[2025-10-13 09:59:04,652] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-13 09:59:08,716] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-13 09:59:12,787] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host
+[2025-10-13 09:59:17,919] [WARNING] tcp_handler: Failed to open socket at 192.168.4.2:50000, retrying: OSError: [Errno 113] No route to host

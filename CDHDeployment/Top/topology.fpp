@@ -9,10 +9,12 @@ module CDHDeployment {
     rateGroup2
     rateGroup3
   }
+
   enum Ports_ComPacketQueue {
     EVENTS,
     TELEMETRY
   }
+
   enum Ports_ComBufferQueue {
     FILE_DOWNLINK
   }
@@ -51,7 +53,8 @@ module CDHDeployment {
     instance systemResources
     instance version
     instance linuxTimer
-
+    instance amsatFramer
+    instance radioBridge    
     # ----------------------------------------------------------------------
     # Pattern graph specifiers
     # ----------------------------------------------------------------------
@@ -76,36 +79,30 @@ module CDHDeployment {
 
     include "CDHDeploymentPackets.fppi"
 
-
     # ----------------------------------------------------------------------
     # Direct graph specifiers
     # ----------------------------------------------------------------------
 
     connections Downlink {
-      # Inputs to ComQueue (events, telemetry, file)
-      eventLogger.PktSend         -> comQueue.comPacketQueueIn[Ports_ComPacketQueue.EVENTS]
-      tlmSend.PktSend             -> comQueue.comPacketQueueIn[Ports_ComPacketQueue.TELEMETRY]
-      fileDownlink.bufferSendOut  -> comQueue.bufferQueueIn[Ports_ComBufferQueue.FILE_DOWNLINK]
-      comQueue.bufferReturnOut[Ports_ComBufferQueue.FILE_DOWNLINK] -> fileDownlink.bufferReturn
+        # Inputs to ComQueue (events, telemetry, file)
+        eventLogger.PktSend         -> comQueue.comPacketQueueIn[Ports_ComPacketQueue.EVENTS]
+        tlmSend.PktSend             -> comQueue.comPacketQueueIn[Ports_ComPacketQueue.TELEMETRY]
+        fileDownlink.bufferSendOut  -> comQueue.bufferQueueIn[Ports_ComBufferQueue.FILE_DOWNLINK]
+        comQueue.bufferReturnOut[Ports_ComBufferQueue.FILE_DOWNLINK] -> fileDownlink.bufferReturn
 
-      # ComQueue <-> Framer
-      comQueue.dataOut   -> framer.dataIn
-      framer.dataReturnOut -> comQueue.dataReturnIn
-      framer.comStatusOut  -> comQueue.comStatusIn
+        # ComQueue <-> Framer
+        comQueue.dataOut   -> framer.dataIn
+        framer.dataReturnOut -> comQueue.dataReturnIn
+        framer.comStatusOut  -> comQueue.comStatusIn
 
-      # Buffer Management for Framer
-      framer.bufferAllocate   -> bufferManager.bufferGetCallee
-      framer.bufferDeallocate -> bufferManager.bufferSendIn
-
-      # Framer <-> ComStub
-      framer.dataOut        -> comStub.dataIn
-      comStub.dataReturnOut -> framer.dataReturnIn
-      comStub.comStatusOut  -> framer.comStatusIn
-
-      # ComStub <-> ComDriver
-      comStub.drvSendOut      -> comDriver.$send
-      comDriver.sendReturnOut -> comStub.drvSendReturnIn
-      comDriver.ready         -> comStub.drvConnected
+        # Buffer Management for Framer
+        framer.bufferAllocate   -> bufferManager.bufferGetCallee
+        framer.bufferDeallocate -> bufferManager.bufferSendIn
+        
+        # ComStub <-> ComDriver
+        comStub.drvSendOut      -> comDriver.$send
+        comDriver.sendReturnOut -> comStub.drvSendReturnIn
+        comDriver.ready         -> comStub.drvConnected
     }
 
     connections FaultProtection {
@@ -171,6 +168,27 @@ module CDHDeployment {
       # Add connections here to user-defined components
     }
 
-  }
+    connections RadioBridge {
+        # Data flow from AMSATFramer to RadioBridge
+        amsatFramer.dataOut -> radioBridge.dataIn
+        radioBridge.dataReturnOut -> amsatFramer.dataReturnIn
+        
+        # Buffer management for AMSATFramer
+        amsatFramer.bufferAllocate -> bufferManager.bufferGetCallee
+        amsatFramer.bufferDeallocate -> bufferManager.bufferSendIn
+        
+        # Standard port connections for AMSATFramer
+        amsatFramer.timeCaller -> chronoTime.timeGetPort
+        amsatFramer.logOut -> eventLogger.LogRecv
+        amsatFramer.logTextOut -> textLogger.TextLogger
+        amsatFramer.cmdRegOut -> cmdDisp.compCmdReg
+        amsatFramer.cmdResponseOut -> cmdDisp.compCmdStat
+        
+        # Standard port connections for RadioBridge
+        radioBridge.timeCaller -> chronoTime.timeGetPort
+        radioBridge.logOut -> eventLogger.LogRecv
+        radioBridge.logTextOut -> textLogger.TextLogger
+    }
 
+  }
 }
